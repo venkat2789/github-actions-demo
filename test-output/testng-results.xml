@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="70352" started-at="2022-08-02T16:56:35Z" finished-at="2022-08-02T16:57:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="70352" started-at="2022-08-02T16:56:35Z" finished-at="2022-08-02T16:57:45Z">
+      <class name="ci_cd.github_actions.SeleniumWebTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:ci_cd.github_actions.SeleniumWebTest@2893de87]" name="setup" is-config="true" duration-ms="5604" started-at="2022-08-02T16:56:35Z" finished-at="2022-08-02T16:56:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="launchApple()[pri:0, instance:ci_cd.github_actions.SeleniumWebTest@2893de87]" name="launchApple" duration-ms="13945" started-at="2022-08-02T16:56:41Z" finished-at="2022-08-02T16:56:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApple -->
+        <test-method status="PASS" signature="launchBing()[pri:0, instance:ci_cd.github_actions.SeleniumWebTest@2893de87]" name="launchBing" duration-ms="6379" started-at="2022-08-02T16:56:55Z" finished-at="2022-08-02T16:57:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBing -->
+        <test-method status="PASS" signature="launchFacebook()[pri:0, instance:ci_cd.github_actions.SeleniumWebTest@2893de87]" name="launchFacebook" duration-ms="13774" started-at="2022-08-02T16:57:01Z" finished-at="2022-08-02T16:57:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchFacebook -->
+        <test-method status="PASS" signature="launchGoogle()[pri:0, instance:ci_cd.github_actions.SeleniumWebTest@2893de87]" name="launchGoogle" duration-ms="6959" started-at="2022-08-02T16:57:15Z" finished-at="2022-08-02T16:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchGoogle -->
+        <test-method status="PASS" signature="launchYahoo()[pri:0, instance:ci_cd.github_actions.SeleniumWebTest@2893de87]" name="launchYahoo" duration-ms="23316" started-at="2022-08-02T16:57:22Z" finished-at="2022-08-02T16:57:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchYahoo -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:ci_cd.github_actions.SeleniumWebTest@2893de87]" name="closeDriver" is-config="true" duration-ms="339" started-at="2022-08-02T16:57:45Z" finished-at="2022-08-02T16:57:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- ci_cd.github_actions.SeleniumWebTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
