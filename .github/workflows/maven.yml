@@ -24,3 +24,9 @@ jobs:
         cache: maven
     - name: Run Test with Maven
       run: mvn clean test
+    - name: Test Reporter
+      uses: dorny/test-reporter@v1.5.0
+      with:
+        name: GitHub Test Runs
+        path: "**/surefire-reports/TEST-*.xml"
+        reporter: java-junit
