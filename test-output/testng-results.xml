@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="70352" started-at="2022-08-02T16:56:35Z" finished-at="2022-08-02T16:57:45Z">
+  <suite started-at="2022-12-17T19:14:04 EST" name="Default suite" finished-at="2022-12-17T19:14:30 EST" duration-ms="26334">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="70352" started-at="2022-08-02T16:56:35Z" finished-at="2022-08-02T16:57:45Z">
+    <test started-at="2022-12-17T19:14:04 EST" name="Default test" finished-at="2022-12-17T19:14:30 EST" duration-ms="26334">
       <class name="ci_cd.github_actions.SeleniumWebTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:ci_cd.github_actions.SeleniumWebTest@2893de87]" name="setup" is-config="true" duration-ms="5604" started-at="2022-08-02T16:56:35Z" finished-at="2022-08-02T16:56:41Z">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ci_cd.github_actions.SeleniumWebTest@59505b48]" started-at="2022-12-17T19:14:04 EST" name="setup" finished-at="2022-12-17T19:14:22 EST" duration-ms="18181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="launchApple()[pri:0, instance:ci_cd.github_actions.SeleniumWebTest@2893de87]" name="launchApple" duration-ms="13945" started-at="2022-08-02T16:56:41Z" finished-at="2022-08-02T16:56:55Z">
+        <test-method signature="launchApple()[pri:0, instance:ci_cd.github_actions.SeleniumWebTest@59505b48]" started-at="2022-12-17T19:14:22 EST" name="launchApple" finished-at="2022-12-17T19:14:24 EST" duration-ms="2015" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApple -->
-        <test-method status="PASS" signature="launchBing()[pri:0, instance:ci_cd.github_actions.SeleniumWebTest@2893de87]" name="launchBing" duration-ms="6379" started-at="2022-08-02T16:56:55Z" finished-at="2022-08-02T16:57:01Z">
+        <test-method signature="launchBing()[pri:0, instance:ci_cd.github_actions.SeleniumWebTest@59505b48]" started-at="2022-12-17T19:14:24 EST" name="launchBing" finished-at="2022-12-17T19:14:26 EST" duration-ms="1962" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBing -->
-        <test-method status="PASS" signature="launchFacebook()[pri:0, instance:ci_cd.github_actions.SeleniumWebTest@2893de87]" name="launchFacebook" duration-ms="13774" started-at="2022-08-02T16:57:01Z" finished-at="2022-08-02T16:57:15Z">
+        <test-method signature="launchFacebook()[pri:0, instance:ci_cd.github_actions.SeleniumWebTest@59505b48]" started-at="2022-12-17T19:14:26 EST" name="launchFacebook" finished-at="2022-12-17T19:14:27 EST" duration-ms="1648" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchFacebook -->
-        <test-method status="PASS" signature="launchGoogle()[pri:0, instance:ci_cd.github_actions.SeleniumWebTest@2893de87]" name="launchGoogle" duration-ms="6959" started-at="2022-08-02T16:57:15Z" finished-at="2022-08-02T16:57:22Z">
+        <test-method signature="launchGoogle()[pri:0, instance:ci_cd.github_actions.SeleniumWebTest@59505b48]" started-at="2022-12-17T19:14:27 EST" name="launchGoogle" finished-at="2022-12-17T19:14:29 EST" duration-ms="1868" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchGoogle -->
-        <test-method status="PASS" signature="launchYahoo()[pri:0, instance:ci_cd.github_actions.SeleniumWebTest@2893de87]" name="launchYahoo" duration-ms="23316" started-at="2022-08-02T16:57:22Z" finished-at="2022-08-02T16:57:45Z">
+        <test-method signature="launchYahoo()[pri:0, instance:ci_cd.github_actions.SeleniumWebTest@59505b48]" started-at="2022-12-17T19:14:29 EST" name="launchYahoo" finished-at="2022-12-17T19:14:30 EST" duration-ms="421" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchYahoo -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:ci_cd.github_actions.SeleniumWebTest@2893de87]" name="closeDriver" is-config="true" duration-ms="339" started-at="2022-08-02T16:57:45Z" finished-at="2022-08-02T16:57:45Z">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:ci_cd.github_actions.SeleniumWebTest@59505b48]" started-at="2022-12-17T19:14:30 EST" name="closeDriver" finished-at="2022-12-17T19:14:30 EST" duration-ms="170" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->

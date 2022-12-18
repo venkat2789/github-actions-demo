@@ -1,6 +1,6 @@
 package ci_cd.github_actions;
 
-import java.util.concurrent.TimeUnit;
+import java.time.Duration;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -16,7 +16,7 @@ public class SeleniumWebTest extends DriverSetup {
 	public void setup() {
 		driver = setupDriver();
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 	}
 
 	@Test
@@ -51,7 +51,7 @@ public class SeleniumWebTest extends DriverSetup {
 
 	private void launchUrlGetTitle(String url) {
 		driver.get(url);
-		new WebDriverWait(driver, 15).until(webDriver -> ((JavascriptExecutor) webDriver)
+		new WebDriverWait(driver, Duration.ofSeconds(15)).until(webDriver -> ((JavascriptExecutor) webDriver)
 				.executeScript("return document.readyState").equals("complete"));
 		System.out.println(driver.getTitle());
 	}

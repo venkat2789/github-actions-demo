@@ -3,8 +3,7 @@ package ci_cd.github_actions;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-
-import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.manager.SeleniumManager;
 
 public class DriverSetup {
 	private WebDriver driver;
@@ -17,7 +16,7 @@ public class DriverSetup {
 	public WebDriver setupDriver() {
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--headless");
-		WebDriverManager.chromedriver().setup();
+		SeleniumManager.getInstance();
 		driver = new ChromeDriver(options);
 		return driver;
 	}
