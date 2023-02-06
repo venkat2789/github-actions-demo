@@ -27,6 +27,6 @@ jobs:
     - name: Test Reporter
       uses: dorny/test-reporter@v1.5.0
       with:
-        name: GitHub Test Runs
+        name: test
         path: "**/surefire-reports/TEST-*.xml"
         reporter: java-junit
